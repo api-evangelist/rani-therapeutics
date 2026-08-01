@@ -1,8 +1,24 @@
 aid: rani-therapeutics
-name: Rani Therapeutics *
-description: 'Rani Therapeutics * is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rani-therapeutics.png
+name: Rani Therapeutics
+description: 'Rani Therapeutics is a clinical-stage biotechnology company developing the RaniPill, an
+  ingestible robotic capsule engineered to deliver biologic drugs orally in place of subcutaneous or
+  intravenous injections. The platform aims to preserve injection-comparable bioavailability while
+  removing the pain and adherence barriers of needle-based therapies across chronic and metabolic
+  disease areas. Surfaced as a portfolio company of GV and added to the API Evangelist network; the
+  company is a publicly traded life-sciences firm and does not currently publish a developer API,
+  developer portal, or programmatic data surface.'
 url: https://raw.githubusercontent.com/api-evangelist/rani-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Drug Delivery
+- Biologics
+- Clinical Stage
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rani-therapeutics-domain-security.yml
 - type: Website
-  url: http://ranitherapeutics.com
+  url: https://ranitherapeutics.com
+- type: PrivacyPolicy
+  url: https://ranitherapeutics.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
